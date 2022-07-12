@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Reddit ad blocker",
+    "short_name": "Search",
+    "description": "Blocks reddit ads",
+    "version": "0.0.1",
+    "minimum_chrome_version": "38",
+    "permissions": [
+      "webNavigation", 
+      "https://www.reddit.com/",
+      "tabs"],
+    
+    "background": {
+        "scripts": [
+            "extension.js"
+        ]
+    }
+  }
+  
